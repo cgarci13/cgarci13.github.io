@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+
+<style>
+body {
+font-size:250%;
+font-family: Courier;
+}
+p {
+font-size:250%;
+font-family: Courier;
+}
+</style>
+
+
+<p id="p1"></p>
+<p id="p2"></p>
+<p id="p3"></p>
+<p id="p4"></p>
+<p id="p5"></p>
+
+<script type="text/javascript">
+
+var arr = ["your","show","is","one","without","lights","the","grand","masquerade","in","the","dark","of","night","one","that","takes","place","on","the","unlit","ceiling","as","that","is","where","the","eyes","wander","of","your","audience","of","one","you","watch","the","feature","chaos","in","the","comfort","of","your","chains","that","hold","you","in","place","through","your","unblinking","eyes","that","begin","to","burn","the","film","replays","each","night"];
+
+var arr2 = ["and","as","i","stand","here","up","in","front","of","all","of","you","as","the","crowd","waits","for","a","cue","to","start","to","clap","i","look","up","to","the","sky","and","dream","wanting","you","to","know","this","applause","is","for","you","thank","you","for","the","universe"]
+
+var arr3 = ["i","watch","for","the","slight","nod","of","your","head","as","you","slowly","start","to","fall","inward","toward","my","dark","crimson","palms","holding","tighter","onto","the","knife","that","now","rests","in","the","confines","of","your","heart","your","heart","was","pure","but","your","blood","was","stained","black","from","the","pain","of","which","you","were","made","to","endure","still","there","was","a","hint","of","red","so","you","had","hope","for","yourself","and","the","rest","of","us","even","those","who","hurt","you","in","the","seconds","following","weak","arms","now","cling","to","my","shirt","you","rest","your","head","on","my","shoulder","whispering","its","okay","and","the","moment","you","drift","i","know","the","world","is","now","lost","but","when","you","started","to","fade","it","hurt","me","even","more","you","believed","in","the","good","of","everyone","i","only","believed","in","the","good","of","you"]
+
+var arr4 = ["i","will","save","you","from","the","universe","nothing","physical","will","ever","hurt","you"]
+
+var arr5 = ["the","faint","scent","of","wood","and","black","paint","black","overwhelms","your","senses","knowing","its","your","new","eternity","you","settle","in","relax","because","all","your","chances","were","taken","and","any","way","out","is","over","and","done","with"]
+
+var timer = setInterval(myTimer, 1000);
+
+var one = 0
+  var two = 0
+  var three = 0
+  var four = 0
+  var five = 0
+
+function myTimer() {
+  var d = new Date();
+
+document.getElementById("p1").innerHTML = arr[one];
+document.getElementById("p2").innerHTML = arr2[two];
+document.getElementById("p3").innerHTML = arr3[three];
+document.getElementById("p4").innerHTML = arr4[four];
+document.getElementById("p5").innerHTML = arr5[five];
+
+one += 1
+two += 1
+three += 1
+four += 1
+five += 1
+
+if (one == 63) {
+	one = 0;
+}
+
+if (two == 45) {
+	two = 0;
+}
+
+if (three == 137) {
+	three = 0;
+}
+
+if (four == 13) {
+	four = 0;
+}
+
+if (five == 36) {
+	five = 0;
+}
+
+}
+
+</script>
+</head>
+<body>
+
+
+</body>
+</html>
